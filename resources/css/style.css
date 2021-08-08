@@ -36,11 +36,11 @@ body {
   }
   
   .e {
-  
+    grid-area: 6 / 5 / 7 / 9;
   }
   
   .f {
-  
+    grid-area: 9 / 7 / 11 / 9;
   }
   
   /* set 3: pattern play */
@@ -50,11 +50,11 @@ body {
   }
   
   .h {
-  
+    grid-area: 12 / 2 / 14 / 5;
   }
   
   .i {
-  
+    grid-area: 14 / 1 / 16 / 4;
   }
   
   /* set 4: healing house */
@@ -65,11 +65,11 @@ body {
   }
   
   .k {
-  
+    grid-area: 17 / 5 / 18 / 8;
   }
   
   .l {
-  
+    grid-area: 19 / 7 / 20 / 8;
   }
   
   /* set 5: curved perfection */
@@ -79,20 +79,18 @@ body {
   }
   
   .n {
-  
+    grid-area: 22 / 2 / 24 / 5;
   }
   
   .o {
-  
+    grid-area: 24 / 1 / 26 / 4;
   }
 
   img {
       max-width: 100%;
   }
   
-  .e, .f,  .h, .i, .k, .l, .n, .o {
-    display: none;
-  }
+
 
   .headLine {
     margin-top: 5vh;
